@@ -14,5 +14,5 @@ Returns an array of objects, one per learner, containing:
 
 ## Notes
 - Assignments not yet due are excluded from calculations
-- Late submissions incur a 10% penalty (deducted from points_possible)
+- Late submissions incur a 10% penalty 
 - Assignment group must belong to the specified course

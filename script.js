@@ -201,7 +201,7 @@ function getLearnerData(course, ag, submissions) {
     for (const learnerId in learnerData) {
       const learner = learnerData[learnerId];
       
-      // Calculate weighted average
+      // Calculating weighted average
       const avg = learner.totalPossible > 0 
         ? learner.totalScore / learner.totalPossible 
         : 0;
@@ -305,7 +305,6 @@ const LearnerSubmissions = [
   }
 ];
 
-// Run the function and display results
 const result = getLearnerData(CourseInfo, AssignmentGroup, LearnerSubmissions);
 console.log(result);
 
